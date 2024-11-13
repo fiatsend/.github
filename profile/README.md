@@ -1,4 +1,5 @@
-# ![10](https://raw.githubusercontent.com/fiatsend/landing/refs/heads/main/public/images/fs-banner.png?token=GHSAT0AAAAAACKUWDI4534DNDBRJORC7YRMZXWP75Q)
+# ![10](![fs-banner](https://github.com/user-attachments/assets/799500f0-4df9-4d35-81e4-8893332ebf75)
+)
 
 ## Hi! Welcome to Fiatsend's GitHub! 👋
 
