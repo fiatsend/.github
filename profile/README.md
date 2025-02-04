@@ -1,38 +1,38 @@
-![brave_screenshot_www fiatsend com](https://github.com/user-attachments/assets/217e09b8-b21c-4990-9720-e7af1a528dfb)
+![image](https://github.com/user-attachments/assets/d64bfca9-c432-4853-858e-6c4f3a1243f3)
 
+# Welcome to Fiatsend ✨
 
+Fiatsend is redefining the way people transact globally by bridging the gap between fiat and blockchain-based payments. Our mission is to simplify cross-border transactions using stablecoins while providing seamless fiat on-ramps and off-ramps.
 
-## Hi! Welcome to Fiatsend's GitHub! 👋
+## 🏦 What We Offer
 
-We are building innovative, decentralized financial solutions for cross-border transactions, enabling users to easily transfer fiat currencies through blockchain technology. By leveraging the power of decentralized identifiers (DIDs) and verifiable credentials (VCs), we’re creating a financial ecosystem that empowers users to take control of their identities and funds. We’re excited to have you with us on this journey!
+Fiatsend provides key financial infrastructure to enable fast, secure, and cost-effective fiat-to-crypto payments:
 
- ### Where to start? ⬅️
+- **Fiatsend Wallet**: A non-custodial wallet enabling users to send and receive stablecoins while seamlessly off-ramping to mobile money and bank accounts.
+- **Fiatsend Pay**: A simple API for businesses and developers to integrate stablecoin payments with direct fiat settlements.
+- **Fiatsend Offramp**: A decentralized offramp that allows users to cash out their crypto to local fiat currencies instantly.
 
-Fiatsend is focused on solving real-world problems with two key components: Fiatsend Wallet and Fiatsend Exchange: 
+## 👉 Getting Started
 
-| [Fiatsend Wallet](https://wallet.fiatsend.com)  | [Fiatsend Exchange](https://fiatsend.com) | 
-| ------------- | ------------- | 
-| A decentralized wallet that allows users to send and receive fiat currencies using blockchain technologies. It's built on Web5 and utilizes self-sovereign identity principles. Check out our [Getting Started](https://github.com/fiatsend/web-wallet/GETTING_STARTED.md) Guide to learn how to integrate the wallet into your app.  | A decentralized exchange where users can convert fiat to cryptocurrency seamlessly and perform cross-border transfers. Check out our [Exchange Overview](https://github.com/fiatsend/web-wallet/GETTING_STARTED.md) to dive into the exchange functionalities. |
-Components: Fiatsend Wallet API, Decentralized Identifiers, Verifiable Credentials, Self-Sovereign Identity | Components: Fiatsend Exchange API, Liquidity Pools, Cross-border Exchange Module | 
+Developers and businesses can start integrating Fiatsend's payment solutions using our SDKs and APIs:
 
-We are constantly iterating and improving Fiatsend. Here are some features we are currently working on:
-* Enhancing self-sovereign identity management
-* Expanding fiat-to-crypto exchange offerings
-* Improving cross-border transaction speeds and transparency
+- **[Fiatsend SDKs](https://github.com/fiatsend/pay-api)** – Accept and process stablecoin payments with fiat settlement.
+- **[Fiatsend Offramp](https://github.com/fiatsend/offramp-sdk)** – Enable instant cashouts for users globally.
 
+## 💬 Join the Community
 
-### 🤝 Contributing 🤝
-Please review our [Code of Conduct](https://github.com/fiatsend/CODE_OF_CONDUCT.md) to ensure a positive and welcoming environment. We encourage both coding and non-coding contributions. Our open-source community thrives on ideas, suggestions, and improvements from users like you! Check out our [Contributing Guide](https://github.com/fiatsend/CONTRIBUTING_GUIDE.md) to get started.  
+Fiatsend thrives on community-driven innovation. Join us to collaborate and shape the future of decentralized payments:
 
-### 💬 Join the Fiatsend Community! 💬
+- **Twitter/X**: [@fiatsend](https://x.com/fiatsend)
+- **Discord**: [Join the conversation](https://discord.gg/Hma7raqw)
+- **LinkedIn**: [Fiatsend Company Page](https://www.linkedin.com/company/fiatsend)
 
-Our community is active across various platforms where you can collaborate, provide feedback, and stay updated:
+## 🎨 Contribute
 
+Fiatsend is open-source and welcomes contributions! Check out our [Contributing Guide](https://github.com/fiatsend/CONTRIBUTING_GUIDE.md) to get involved.
 
-* **X**. Follow [@fiatsend](https://x.com/fiatsend) for updates on the latest features, news, and open-source contributions.
+## ✨ Stay Updated
 
-* **Discord**. Join the conversation on [Discord](https://discord.gg/Hma7raqw) to meet fellow developers and discuss Fiatsend’s progress.  
+Follow our updates and announcements for new releases, partnerships, and features.
 
-### 🌎 Join the team! 🌎
-
-Check out our [open positions](https://www.linkedin.com/company/fiatsend/jobs) to see if we are hiring and for what positions!
+**Fiatsend - Simplifying Stablecoin Payments 💸 🌍**
