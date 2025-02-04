@@ -8,9 +8,8 @@ Fiatsend is redefining the way people transact globally by bridging the gap betw
 
 Fiatsend provides key financial infrastructure to enable fast, secure, and cost-effective fiat-to-crypto payments:
 
-- **Fiatsend Wallet**: A non-custodial wallet enabling users to send and receive stablecoins while seamlessly off-ramping to mobile money and bank accounts.
-- **Fiatsend Pay**: A simple API for businesses and developers to integrate stablecoin payments with direct fiat settlements.
-- **Fiatsend Offramp**: A decentralized offramp that allows users to cash out their crypto to local fiat currencies instantly.
+- **Fiatsend Payment SDK**: A simple API for businesses and developers to integrate stablecoin payments with direct fiat settlements.
+- **Offramps by Fiatsend**: A decentralized offramp that allows users to cash out their crypto to local fiat currencies instantly.
 
 ## 👉 Getting Started
 
