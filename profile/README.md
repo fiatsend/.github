@@ -16,8 +16,8 @@ Fiatsend provides key financial infrastructure to enable fast, secure, and cost-
 
 Developers and businesses can start integrating Fiatsend's payment solutions using our SDKs and APIs:
 
-- **[Fiatsend SDKs](https://github.com/fiatsend/pay-api)** – Accept and process stablecoin payments with fiat settlement.
-- **[Fiatsend Offramp](https://github.com/fiatsend/offramp-sdk)** – Enable instant cashouts for users globally.
+- **[Fiatsend JavaScript SDK](https://github.com/fiatsend-js)** – Accept and process stablecoin payments with fiat settlement.
+- **[Offramps by Fiatsend](https://github.com/fiatsend/offramps)** – A simple dapp that enable instant cashouts for users globally.
 
 ## 💬 Join the Community
 
