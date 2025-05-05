@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/36f4b844-0f1a-4bd8-9e05-665df4c7f5f7)
+![image](https://github.com/user-attachments/assets/69738475-6fae-422f-9045-2725ad14e1e9)
 
 
 # Welcome to Fiatsend ✨
