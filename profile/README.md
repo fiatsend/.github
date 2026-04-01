@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/69738475-6fae-422f-9045-2725ad14e1e9)
+<img width="1440" height="480" alt="fiatsend-hero-background" src="https://github.com/user-attachments/assets/4400a7b2-a9ad-4528-a09e-f108c4acad4e" />
+
 
 
 # Welcome to Fiatsend ✨
