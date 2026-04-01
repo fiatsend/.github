@@ -1,0 +1,120 @@
+name: "✨ Feature Request"
+description: Suggest a new feature or improvement for the SDK.
+title: "[Feature]: "
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We'd love to hear your ideas for improving Fiatsend SDKs. Please describe the feature you'd like and how it would help your integration.
+
+  - type: checkboxes
+    id: existing-issues
+    attributes:
+      label: Pre-flight checklist
+      options:
+        - label: I have searched [existing issues](../../issues) and this feature has not been requested yet.
+          required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What area of the SDK does this relate to?
+      options:
+        - Wallets
+        - Payouts / Disbursements
+        - Transfers (P2P)
+        - MobileNumber NFT / Identity
+        - Webhooks
+        - Authentication / API Keys
+        - Error handling
+        - TypeScript types / DX
+        - Documentation
+        - CLI tooling
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem are you trying to solve? What friction are you experiencing?
+      placeholder: |
+        I'm building a remittance app and need to check the status of multiple payouts at once.
+        Currently I have to call `client.payouts.retrieve()` in a loop, which is slow and burns through my rate limit.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: How would you like this to work? Include example API calls or code snippets if possible.
+      placeholder: |
+        A batch retrieval method would be ideal:
+
+        ```typescript
+        const payouts = await client.payouts.list({
+          ids: ['payout_abc', 'payout_def', 'payout_ghi']
+        });
+        ```
+
+        Or an endpoint that accepts a filter:
+
+        ```typescript
+        const pending = await client.payouts.list({
+          status: 'pending',
+          createdAfter: '2026-01-01'
+        });
+        ```
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Have you found any workarounds or alternative approaches?
+      placeholder: |
+        I'm currently using `Promise.all()` to parallelize individual retrieve calls,
+        but this doesn't scale beyond ~20 payouts due to rate limiting.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: sdk
+    attributes:
+      label: SDK
+      description: Which SDK is this request for?
+      options:
+        - "@fiatsend/sdk (JavaScript/TypeScript)"
+        - "fiatsend-python (Python)"
+        - "fiatsend-go (Go)"
+        - "All SDKs"
+        - "REST API"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: How important is this to you?
+      description: Help us prioritize.
+      options:
+        - "Nice to have — would improve my workflow"
+        - "Important — I'm working around this limitation"
+        - "Critical — this is blocking my integration"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Anything else — screenshots, links to similar features in other SDKs, your use case details.
+    validations:
+      required: false

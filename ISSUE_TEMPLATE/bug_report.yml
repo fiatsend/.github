@@ -1,0 +1,129 @@
+name: "🐛 Bug Report"
+description: Report a bug or unexpected behavior in the SDK.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please fill out the sections below so we can reproduce and fix the issue quickly.
+
+  - type: checkboxes
+    id: existing-issues
+    attributes:
+      label: Pre-flight checklist
+      options:
+        - label: I have searched [existing issues](../../issues) and this bug has not been reported yet.
+          required: true
+        - label: I am using the latest version of the SDK.
+          required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug description
+      description: A clear, concise description of what the bug is.
+      placeholder: "When I call `fiatsend.payouts.create(...)`, the SDK throws a TypeError instead of returning the expected response."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Provide the exact steps to reproduce the behavior. Include a minimal code snippet if possible.
+      placeholder: |
+        1. Install `@fiatsend/sdk@1.2.0`
+        2. Initialize the client with `new FiatsendClient({ apiKey: '...' })`
+        3. Call `client.payouts.create({ ... })`
+        4. Observe the error
+
+        ```typescript
+        import { FiatsendClient } from '@fiatsend/sdk';
+
+        const client = new FiatsendClient({ apiKey: 'test_key' });
+        const payout = await client.payouts.create({
+          walletId: 'wallet_123',
+          destination: { type: 'mobile_money', phoneNumber: '+233241234567' },
+          amount: 100,
+          currency: 'GHS'
+        });
+        ```
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+      placeholder: "The SDK should return a Payout object with status 'sent'."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What actually happened? Include the full error message or stack trace.
+      placeholder: |
+        TypeError: Cannot read properties of undefined (reading 'id')
+            at FiatsendClient.payouts.create (src/resources/payouts.ts:42:18)
+            ...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sdk
+    attributes:
+      label: SDK
+      description: Which Fiatsend SDK are you using?
+      options:
+        - "@fiatsend/sdk (JavaScript/TypeScript)"
+        - "fiatsend-python (Python)"
+        - "fiatsend-go (Go)"
+        - "REST API directly (no SDK)"
+    validations:
+      required: true
+
+  - type: input
+    id: sdk-version
+    attributes:
+      label: SDK version
+      description: "Run `npm list @fiatsend/sdk` or check your package.json."
+      placeholder: "1.2.0"
+    validations:
+      required: true
+
+  - type: input
+    id: runtime-version
+    attributes:
+      label: Runtime version
+      description: "Node.js, Python, or Go version. Run `node -v`, `python --version`, or `go version`."
+      placeholder: "Node.js 20.11.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Linux
+        - Windows
+        - Docker / Container
+        - Serverless (Vercel, AWS Lambda, etc.)
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Any other context — screenshots, logs, related issues, or workarounds you've found.
+    validations:
+      required: false

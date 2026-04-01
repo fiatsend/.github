@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Documentation
+    url: https://docs.fiatsend.com
+    about: Check the API docs — your question might already be answered there.
+  - name: 💬 Community Discord
+    url: https://discord.gg/fiatsend
+    about: Ask questions and get help from the Fiatsend community.
+  - name: 🔒 Security Vulnerability
+    url: https://github.com/fiatsend/.github/blob/main/SECURITY.md
+    about: "DO NOT open a public issue for security vulnerabilities. Follow our responsible disclosure process instead."
+  - name: 📧 Support
+    url: mailto:support@fiatsend.com
+    about: For account-specific issues, billing, or KYC questions.
