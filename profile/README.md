@@ -4,7 +4,7 @@
 
 <p align="center">
   Hold stablecoins and local currency in one account. Pay out instantly with clear confirmations.<br/>
-  <strong>17,000+ active users · $6M+ volume processed · 99.9% uptime</strong>
+  <strong>12,000+ active users · $2M+ volume processed · 99.9% uptime</strong>
 </p>
 
 <p align="center">
