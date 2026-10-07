@@ -85,7 +85,7 @@ Fiatsend is a payment technology company, not a bank. Funds held in a Fiatsend w
 - 📖 [Documentation](https://docs.fiatsend.com)
 - 🛠️ [Developer portal](https://developer.fiatsend.com)
 - 💬 [Community chat](https://discord.gg/fiatsend)
-- 🐦 [Twitter / X](https://x.com/fiaborhot)
+- 🐦 [Twitter / X](https://x.com/fiatsend)
 - 🏢 [LinkedIn](https://linkedin.com/company/fiatsend)
 - 📧 [support@fiatsend.com](mailto:support@fiatsend.com)
 
